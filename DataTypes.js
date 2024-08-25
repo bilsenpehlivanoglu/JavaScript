@@ -67,7 +67,30 @@ let name='Bilsen',
     occupation='Software qa automation engineer'
     console.log(name,surname,state,occupation);
     
-    
+let x=12;
+console.log(x++); //12
+console.log(x); //1
+
+let y = 3;
+console.log(y--);//3
+console.log(y);//2
+console.log(--y);//1
+
+x+=5; 
+console.log(x);
+
+let myFavNum=15.4567
+
+let ceiledNum=Math.ceil(myFavNum);
+console.log(ceiledNum);//16
+
+let flooredNum=Math.floor(myFavNum);
+console.log(myFavNum);//15
+
+let roundedNum=Math.round(myFavNum);
+console.log(myFavNum);//16
+
+
 
 
 

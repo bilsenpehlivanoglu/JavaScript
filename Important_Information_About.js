@@ -23,3 +23,28 @@
 // let ager = 30; -->may change ( var and let similar)
 
 // ; --> is not mandatory
+
+//CONST
+// 1) We can nor change xonst variable
+// 2) const variables must be initialized (unique for const)
+//ADVANTAGE: You can not change the value by mistake
+//DİSADVANTAGE: You can not use for changing values
+//Use const if the value does not change
+
+//ARITHMETIC OPERATIONS
+//+, -, *, %, ++, --, **
+
+// % remainder / mod
+
+// x++ : post increment. first use x, then add 1 
+// ++x :pre increment.first add 1,then use x
+
+//IMPORTANT
+//If we dont use the additional parenthesis inside the JS tries to concat the values and returns NaN
+// NaN = Not a Number
+
+//slice (start, end(optional))
+//substring (start, end(optional)
+//if there is no end index, then end index will be the last index
+//When slice (-5), returns LAST 5 characters
+
