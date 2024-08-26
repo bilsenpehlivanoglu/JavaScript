@@ -48,3 +48,7 @@
 //if there is no end index, then end index will be the last index
 //When slice (-5), returns LAST 5 characters
 
+//Constructor : it is another was of creating objects
+
+//Normal function:
+
