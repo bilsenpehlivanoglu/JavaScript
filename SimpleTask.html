@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Website</h1>
+
+<!-- //Create a website
+//Website should hava
+//Label : Number
+//Input
+//Button : CheckNumber
+
+//Functionality : Page should check if a number is even or odd
+//Alert Message : 10 is even number
+//Alert Message : 11 is odd number--> 
+
+<form action="">
+ <label for="">Number: </label>
+ <input id="input-box" type="text">
+ <input type="button" value="Check Number" onclick="isEven()">
+ <!--WORKFLOW: User clicks on check number button
+ onclick attribute wil be called
+ then it will trigger isEven function-->
+</form>
+
+<!--Writing the javascript code to check if the number is even or odd-->
+<script>
+    //intenal js.
+    //isEven function should be called ONLY WHEN USER CLICKS ON check number button
+    function isEven(){
+        //const num = 10;
+        const num = document.getElementById('input-box').value;
+        console.log(num);
+        if(num%2==0){
+          alert(num + " is even")
+        }else{
+            alert(num + " is odd")
+         //   document.write("Stop Clicking")
+        }
+    }
+</script>
+
+</body>
+</html>
